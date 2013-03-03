@@ -1,0 +1,43 @@
+!!! 5
+
+%html
+
+  %head
+
+    %title rest-tail
+
+    %link{ :href => 'cssreset-min.css', :rel => 'stylesheet', :type => 'text/css' }
+
+    :scss
+
+      @font-face {
+        font-family: 'SubwayTicker';
+        src: url(/fonts/subway_ticker-webfont.eot);
+        src: url(/fonts/subway_ticker-webfont.eot?#iefix) format('eot'), url(/fonts/subway_ticker-webfont.ttf) format('truetype'), url(/fonts/subway_ticker-webfont.woff) format('woff'), url(/fonts/subway_ticker-webfont.svg) format('svg');
+      }
+
+      html {
+        font-family: 'SubwayTicker';
+        font-size: 20px;
+        background: #000;
+        color: #07ff00;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: #ff00cf;
+
+          &:hover {
+            color: #ffff00;
+          }
+        }
+
+        body {
+
+          & > div:first-child {
+            margin: 20px 0;
+          }
+        }
+      }
+
+  %body= yield
