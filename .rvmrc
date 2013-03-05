@@ -1,2 +1,2 @@
 rvm_gemset_create_on_use_flag=1
-rvm 2.0.0-p0@rest-tail
+rvm 2.0.0-p0@node-tail

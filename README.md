@@ -1,4 +1,4 @@
-# rest-tail
+# node-tail
 
 ```bash
 unicorn
