@@ -3,9 +3,9 @@ source 'http://rubygems.org'
 gem 'rake'
 
 gem 'sinatra'
-gem 'unicorn'
+gem 'sinatra-contrib'
 
-gem 'foreman'
+gem 'unicorn'
 
 gem 'haml'
 gem 'sass'
