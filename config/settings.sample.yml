@@ -1,0 +1,3 @@
+development:
+  authorized_files:
+    - 'log/crap'
