@@ -1,3 +1,5 @@
 development:
   authorized_files:
     - 'log/crap'
+  authorized_commands:
+    - 'ruby ./lib/mock/crap_shoot.rb'
